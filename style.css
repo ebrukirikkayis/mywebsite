@@ -1,0 +1,454 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width:100%;
+	height:80%;
+	margin:0;
+	padding:0;
+	background-color: #e6ffff;
+}
+
+#ustbaslık{
+	background-color:#004d4d;
+	color:white;
+	height:50px;
+	width:100%;
+	position: sticky;
+	top: 0;
+	z-index:1;
+	font-size: 25px;
+	text-align: center;
+	padding:10px;
+}
+#sablon{
+	width:100%;
+	height:100%;
+	margin:auto;
+	height:auto;
+}
+
+
+section{
+	width:17%;
+	height:85%;
+	background-color:#004d4d;
+	border-radius:10px;
+	margin-top:15px;
+	overflow:auto;
+	position:fixed;
+	top:50px;
+	left:10px;
+}
+.seçenek{
+	width:15%;
+	float:left;
+	
+	height:auto;
+	position:fixed;
+	top:80px;
+	left:20px;
+}
+
+.seçenek ul{
+	width:auto;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.seçenek li{
+	list-style-type:none;
+	
+}
+.seçenek li a{
+	height:40px;
+	line-height:40px;
+	text-decoration:none;
+	color:white;
+	border-bottom:1px solid #e6ffff;
+	padding-left:20px;
+	display:block;
+}
+.seçenek li a:hover{
+	color: black;
+	background-color:white;
+}
+.indexdüzen{
+	width:61%;
+	height:85%;
+	background-color:#FFDEAD;
+	float:left;
+	padding-bottom:10px;
+	padding-right:50px;
+	border-radius:10px;
+	position:fixed;
+	left:20.7%;
+	top:10%;
+}
+.icerik{
+	width:85%;
+	float:left;
+	height:auto;
+	padding:10px;
+	position:fixed;
+	left:25%;
+}
+.alticerik{
+	width:85%;
+	float:left;
+	height:auto;
+	padding:10px;
+	position:fixed;
+	left:25%;
+	top:480px;
+}
+
+#mainResim{
+	width:50%;
+	height:300px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	position:fixed;
+	top:200px;
+	left:26%;
+}
+h2{
+	float:left;
+	width:75%;
+	text-align:center;
+	background-color:#ff6666;
+	color:white;
+	height:40px;
+	line-height:40px;
+	margin:0 10px;
+	border-radius: 10px;
+	position:fixed;
+	left:20%;
+	top:70px;
+}
+
+.referans{
+	width: 17%;
+	height:219px;
+	background-color: #004d4d;
+	margin:10px;
+	border-radius:5px;
+	float:left;
+	padding:3px;
+
+}
+
+.refResim{
+	width:100%;
+	height: 165px;
+	border-radius:5px;
+	padding:3px;
+}
+
+.refBaslik:link{
+	display:block;
+	width:100%;
+	height:40px;
+	line-height:20px;
+	padding:10px 20px;
+	background-color:#ff6666;
+	color:white;
+	margin-top: 3px;
+	margin-bottom:3px;
+	display:inline-block;
+	border-radius:3px;
+	border-radius:3px;
+	text-decoration:none;
+	text-align: center;
+}
+.refBaslik:hover{
+	color: black;
+	background-color:white;
+}
+
+.refToplu{
+	width: 12.7%;
+	float:left;
+	height:216px;
+	background-color: #004d4d;
+	margin:10px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	position:fixed;
+	left:22%;
+	top:17%;
+	padding:3px;
+
+}
+
+
+
+h4{
+	width:100%;
+	height:0px;
+	line-height:5px;
+	text-align:center;
+	color:white;
+}
+.login{
+	width:15%;
+	height:32%;
+	text-align:center;
+	background-color:#ff6666;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-inline:4px solid  #004d4d ;
+	position:fixed;
+	left:84%;
+	top:50px;
+	display:block;
+}
+.login1{
+	color:black;
+	text-align:center;
+}
+
+.kaydol{
+	width:75%;
+	height:75%;
+	background-color:#FFDEAD;
+	border-radius:10px;
+	float:left;
+	padding-bottom:10px;
+	padding-right:50px;
+	position:fixed;
+	left:20.7%;
+	top:18%;	
+}
+.kaydol li{
+	line-height:26px;
+	list-style-type:none;
+	margin-bottom:20px;
+	border-bottom:2px solid  #fdfefe ;
+}
+#kaydol1{
+	width:100%;
+	height:95%;
+	line-height:26px;
+	margin:20px;
+	border: 1px solid #fdfefe;
+}
+
+
+.forum{
+	width:75%;
+	height:75%;
+	background-color:#FFDEAD;
+	padding:10px;
+	border-radius:10px;
+	position:fixed;
+	left:20.7%;
+	top:18%;
+	
+}
+
+#t1{
+	width:100%;
+	background-color:#FDFEFE;
+	border: 1px solid black;
+}
+#t1 tr:nth-child(even){
+	background-color:#D0D3D4;
+}
+#t1 tr:nth-child(odd){
+	background-color:#ECF0F1;
+}
+
+
+.refYorum{
+	width:50%;
+	height:25%;
+	background-color:#FFDEAD;
+	border-radius:10px;
+	padding-top:20px;
+	padding-left:5px;
+	text-align:center;
+	position:fixed;
+	left:40%;
+	top:18.5%;
+}
+.refTablo{
+	width:74.8%;
+	height:40%;
+	background-color:#FFDEAD;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	position:fixed;
+	left:20.9%;
+	top:54%;
+}
+.foto{
+	width:75%;
+	height:75%;
+	background-color:#FFDEAD;
+	border-radius:10px;
+	float:left;
+	padding:20px;
+	position:fixed;
+	left:20.7%;
+	top:18%;	
+}
+
+
+.fotos{
+	border:1px solid #000000;
+	border-radius:5px;
+	padding:5px;
+	margin:17px;
+	width:200px;
+}
+
+.fotos:hover{
+	box-shadow: 0 0 15px 1px #00FBFF;
+}
+
+.videos{
+	border:1px solid #000000;
+	border-radius:5px;
+	padding:3px;
+	margin-top:15px;
+	margin-left:20px;
+	width:300px;
+}
+.videos:hover{
+	box-shadow: 0 0 15px 1px #FF0000;
+}
+
+.vidtablo{
+	width:35.8%;
+	height:75%;
+	background-color:#ECF0F1 ;
+	border:1px solid #FF0000;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	float:left;
+	padding:10px;
+	position:fixed;
+	left:60%;
+	top:18%;
+}
+
+
+.düzen{
+	width:75%;
+	height:75%;
+	background-color:#FFDEAD;
+	border-radius:10px;
+	float:left;
+	padding:20px;
+	position:fixed;
+	left:20.7%;
+	top:18%;	
+}
+
+.harita{
+	width:40%;
+	height:70.2%;
+	background-color:#A6ACAF;
+	border-radius:10px;
+	float:left;
+	padding:15px;
+	position:fixed;
+	left:37%;
+	top:20%;
+	border:2px solid #626567 ;
+}
+
+.slides{
+	padding:0;
+	width:502px;
+	height:401px;
+	display:block;
+	margin:0 auto;
+	position:relative;
+}
+
+.slides*{
+	user-select:none;
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+}
+
+.slides input{ display:none;}
+.slide-container{display:block;}
+
+.slide{
+	top:0;
+	opacity:0;
+	width:502px;
+	height:401px;
+	display:block;
+	position:absolute;
+	
+}
+
+.slide img{
+	width:100%;
+	height:100%;
+}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+.nav label{
+	width:400px;
+	height:50%;
+	display:none;
+	position:absolute;
+	opacity:0;
+	z-index:9;
+	cursor:pointer;
+	color:#000000;
+	font-size:156px;
+	text-align:center;
+	line-height:502px;
+	font-family:"Varela Round", sans-serif;
+	background-color:#fff;
+	text-shadow:0px 0px 15px rgb(119,119,199);
+}
+input:checked + .slide-container .slide{
+	opacity:1;
+}
+input:checked + slide-container .nav label{ display:block;}
+
+.nav-dots{
+	width:100%;
+	bottom:10px;
+	height:11px;
+	display:block;
+	position:absolute;
+	text-align:center;
+}
+
+.nav-dots .nav-dot{
+	top:25px;
+	width:23px;
+	height:23px;
+	margin:0 5px;
+	position:relative;
+	border-radius:100%;
+	display:inline-block;
+	background-color:#FDFEFE ;
+	border:1.5px solid #000000;
+}
+.nav-dots .nav-dot:hover{
+	cursor:pointer;
+	background-color:#00FF7F;
+}
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4{
+	background:#00FF7F ;
+}
+
+
